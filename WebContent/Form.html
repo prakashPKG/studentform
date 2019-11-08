@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Form</title>
+</head>
+<body style="margin: 0px; padding: 0px; background-color: darkslategray">
+<div style="background-color: aquamarine">    
+<h1 align="center" style="color: cadetblue; margin-top: 0px">Education_Students Details</h1><hr>
+</div>    
+    <div>
+	<form style="margin-top:55px" action="FirstServlet" method="post">
+        <table style="border: 1px solid black; width: 500px; height: 500px; margin: 0 auto; background-color:azure; border-radius: 3px" >
+        <tr><td><h3 style="color:darkblue; text-align: center">Enter Details</h3></td></tr>
+        <tr><td>Class_id:</td>
+        <td><select name="sclass" style="border-radius: 2px">
+	<option value="I">I</option>
+	<option value="II">II</option>
+	<option value="III">III</option>
+	<option value="IV">IV</option>
+	<option value="V">V</option>
+	<option value="VI">VI</option>
+	<option value="VII">VII</option>
+	<option value="VIII">VIII</option>
+	<option value="IX">IX</option>
+	<option value="X">X</option>
+	<option value="XI">XI</option>
+	<option value="XIII">XII</option>
+	</select></td></tr>
+        
+    <tr><td>First Name:</td><td><input type="text" name="fname" required placeholder="First Name" style="border-radius: 2px"/></td></tr>
+    <tr><td>Last Name:</td><td><input type="text" name="lname" required placeholder="Last Name" style="border-radius: 2px"/></td></tr>
+    <tr><td>Middle Name:</td><td><input type="text" name="mname" placeholder="Middle Name" style="border-radius: 2px"/></td></tr>   
+    <tr><td>Mobile Number:</td><td><input type="text" name="mobile" required style="border-radius: 2px" /></td></tr>
+    <tr><td>Email ID:</td><td><input type="text" name="emailid" required style="border-radius: 2px" /></td></tr>   
+    <tr><td><input type="submit" style="border-radius: 12px; background-color: #008CBA; border: none; color: white; font-size: 16px; padding: 15px 32px"/></td><td><input type="reset" style="border-radius: 12px; background-color: #008CBA; border: none; color: white; font-size: 16px; padding: 15px 32px" /></td></tr>        
+	</table>
+	</form>
+        </div>
+</body>
+</html>
